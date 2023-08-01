@@ -7,10 +7,29 @@ body{
 #container{
     width: 70%;
     border: 1px #ccc solid ;
-    padding: 1cm;
-    text-align: center;
+    padding: 0.5;
+    text-align: left;
     margin: 0 auto;
+}
+
+#cabecera{
+    background-color: darkcyan;
+    color: white;
+    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.5);
+    margin: 0;
+    padding: 0.5cm;
+    font-weight: bold;
 }
 #container h1{
     font-size: 20px;
+    padding: 0.5px;
+}
+#post{
+    padding: 0.5cm;
+} 
+
+#tagline{
+    margin: 0 0 0 1cm;
+    font-weight: normal;
+    font-size: 0.8rem;
 }
